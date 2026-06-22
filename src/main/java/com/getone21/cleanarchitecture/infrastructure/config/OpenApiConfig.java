@@ -15,7 +15,7 @@ public class OpenApiConfig {
                 .info(new Info()
                         .title("Clean Architecture API")
                         .version("1.0.0")
-                        .description("Java 21 Spring Boot REST API with Clean Architecture and Hibernate/JPA")
+                        .description("Java 26 Spring Boot REST API with Clean Architecture and Hibernate/JPA")
                         .contact(new Contact()
                                 .name("getOne21")
                                 .url("https://github.com/getOne21")));

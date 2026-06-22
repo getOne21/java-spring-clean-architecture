@@ -1,14 +1,14 @@
 <h1 align="center">🏗️ Java Spring Clean Architecture</h1>
 
 <p align="center">
-  A production-ready Spring Boot project template using <b>Java 21</b>, <b>Clean Architecture</b>, and <b>Hibernate/JPA</b> with a complete User CRUD example.
+  A production-ready Spring Boot project template using <b>Java 26</b>, <b>Clean Architecture</b>, and <b>Hibernate/JPA</b> with a complete User CRUD example.
 </p>
 
 ---
 
 ## 🏷️ Tech Stack
 
-![Java](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java-26-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
@@ -91,7 +91,7 @@ Presentation → Application → Domain ← Infrastructure
 
 ### Prerequisites
 
-- **Java 21** or later
+- **Java 26** or later
 - **Maven 3.6+**
 
 ### Run with H2 (default, no setup needed)
