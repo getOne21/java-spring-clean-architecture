@@ -83,4 +83,11 @@ public class UserController {
         deleteUserUseCase.deleteUser(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/{mail}")
+    @Operation(summary = "Get a user by mail")
+    public ResponseEntity<UserResponse> getUserByMail(@PathVariable String mail) {
+        var user = getUserUseCase.getUserByMail(mail);
+        return ResponseEntity.ok(mapper.toResponse(user));
+    }
 }

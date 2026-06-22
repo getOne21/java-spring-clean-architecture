@@ -47,6 +47,14 @@ public class UserService implements CreateUserUseCase, GetUserUseCase, UpdateUse
 
     @Override
     @Transactional(readOnly = true)
+    public User getUserByMail(String mail)
+    {
+        return userRepositoryPort.findByEmail(mail)
+                .orElseThrow(() -> new UserNotFoundException(mail));
+    }
+
+    @Override
+    @Transactional(readOnly = true)
     public List<User> getAllUsers() {
         return userRepositoryPort.findAll();
     }

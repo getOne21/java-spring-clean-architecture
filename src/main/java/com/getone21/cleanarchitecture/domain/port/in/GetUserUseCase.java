@@ -9,5 +9,7 @@ public interface GetUserUseCase {
 
     User getUserById(UUID id);
 
+    User getUserByMail(String id);
+
     List<User> getAllUsers();
 }
